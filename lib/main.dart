@@ -1,5 +1,5 @@
 import 'package:bitfolio/core/configs/themes/app_theme.dart';
-import 'package:bitfolio/presentation/screens/home/home_screen.dart';
+import 'package:bitfolio/presentation/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Bitfolio',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home:HomeScreen(),
+      home:LoginScreen()
     );
   }
 }
